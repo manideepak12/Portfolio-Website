@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="myportfolio.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b8e9a33a50.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav> 
+                
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, I'm <span><br>MANIDEEPAK REDDY</span> BODIGAM</h1>
+                <p>An Under Graduate Student</p>
+            </div>
+        </div>
+    </div>
+<!--ABOUT-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="mani profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1><p>I am Bodigam Manideepak Reddy, an under graduate 2nd-year BTech (Artificial Intelligence and Machine Learning) student at Malla Reddy Institute Of Technology and Science<b>(MRITS)</b>, Hyderabad.
+                    <br>Iam passionate about technology and AI, and I have experience working with technologies such as Excel, HTML, CSS, JavaScript. I am EX-Intern at Resolute Electronics as a line-in-Charge.
+                <br>I am eager to learn new technologies and skills, and I am always looking for opportunities to
+                grow and develop myself. I am also a team player and I am always willing to help others.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                        <p class="tab-links"  onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Python</span><br>Familiar With Python.</li>
+                            <li><span>Web Development</span><br>Can Code for front end using HTML And CSS.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"> 
+                        <ul>
+                            <li><span>Python</span><br>Can solve basic pythonn programs.</li>
+                            <li><span>Web Development</span><br>Creating Own Portfolio & A basic web projects.</li>
+                            <li><span>Internship</span><br>A Virtual Internship on AI&ML from Ybi Foundation.<br>
+                                A Virtual Internship on Web Development from Bharat Intern.
+                            <br>An Internship in Resolute Electronics for a period of 6 months.</li>
+                         
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.Tech</span><br>Currently Pursuing B.Tech In MRITS as a Lateral Entry Student.</li>
+                            <li><span>Diploma</span><br>Studied At Indur INstitute Of Engineering and Technology, With Percentage Of <b>75.7%</b>.</li>
+                            <li><span>SSC</span><br>Studied At Vikas High School, With <b>10.0</b> CGPA.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Services-->
+<div id="technologies">
+    <div class="container">
+        <h1 class="sub-title">Languages</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Familiar with Python</h2>
+                <p>Can solve basic pythonn programs.</p>
+                <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Can Develop front end using HTML,CSS,JS.</p>
+                <a href="https://en.wikipedia.org/wiki/Front-end_web_development">Learn More</a>
+            </div>
+            
+            
+        </div>
+        
+    </div>
+</div>
+<!--courses-->
+<div id="languages">
+    <div class="container">
+        <h1 class="sub-title">Courses & Certifications</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-y-combinator"></i>
+                <h2>AI & ML INTERNSHIP</h2>
+                <p>A Virtual Internship program on AI & ML from YBI foundation.</p>
+                <a href="https://www.ybifoundation.org/certificate-validation?credentialId=M96OPZS33BERA"><b>View</b></a>
+            </div>
+          </div>
+    </div>
+</div>
+
+<!--portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="storycafe project.png">
+                <div class="layer">
+                    <h3>STORY CAFE</h3>
+                    <p>A website on a cafe which is located in kompally.</p>
+                    <a href="https://manideepak12.github.io/STORY-CAFE-WEBSITE/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="temp op.png">
+                <div class="layer">
+                    <h3>TEMPERATURE-CONVERTER</h3>
+                    <p>This a web application where you can convert temperature into different scales.</p>
+                    <a href="https://manideepak12.github.io/TASK-2-TEMPERATURE-CONVERTER/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="netflix clone.png">
+                <div class="layer">
+                    <h3>NETFLIX CLONE</h3>
+                    <p>netflix india clone by HTML,CSS,JS.</p>
+                    <a href="https://manideepak12.github.io/TASK-3-NETFLIX-HOME-PAGE/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">View More</a>
+    </div>
+</div>
+
+<!--Contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>manideepak1202@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> +918074955963</p>
+                <div class="social-icons">
+                    <a href="https://github.com/manideepak12"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/manideepak-reddy-bodigam-/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://x.com/mani_12_?t=zFUmBDdyXEzk9pCN_ObGtg&s=09"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/m_a_n_i_1_2?igshid=MmVlMjlkMTBhMg=="><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+                <a href="mani resume.pdf" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Sumbit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>.MANIDEEPAK REDDY BODIGAM.</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
